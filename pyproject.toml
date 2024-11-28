@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "conner"
+version = "0.1.0"
+description = ""
+authors = ["Ilya Breitburg <ilya.breytburg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+transformers = "^4.46.2"
+tensorflow = "^2.18.0"
+scikit-learn = "^1.5.2"
+tf-keras = "^2.18.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
